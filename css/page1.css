@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    width: 100%;
+	overflow-x: hidden;
+}
+
+/* 头部导航栏 nav*/
+.header_bar {
+	background-color: rgba(17, 17, 17, 0.75);
+	display: inline-block;
+	position: absolute;
+	height: 66px;
+	width: 100%;
+	z-index: 999;
+}
+
+/* 头部导航栏 nav*/
+.header_navbar {
+	display: inline-block;
+	height: 66px;
+	line-height: 66px;
+	text-indent: 20px;
+}
+
+/*字体设置*/
+ul {
+	list-style: none;
+	overflow: hidden;
+}
+
+ul li {
+	float: left
+}
+
+a {
+	font-size: 17px;
+	color: #ccc;
+	text-decoration: none;
+	padding: 22px 16px;
+	opacity: 0.8;
+}
+
+/* 导航栏窗口字体鼠标接触特效 */
+.header_navbar a:hover {
+	text-shadow: 0 0 20px skyblue,0 0 20px skyblue,0 0 20px skyblue,0 0 20px skyblue;
+	color: white;
+}
+
+
+
+
+
+
