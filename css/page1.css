@@ -18,7 +18,32 @@ body {
 	z-index: 999;
 }
 
-/* 头部导航栏 nav*/
+/* 头部导航栏左侧 */
+.header_left {
+	display: flex;
+	float: left;
+	width: 5%;
+}
+
+/* 音乐Logo */
+.musicLogo {
+	display: flex;
+	align-items: center;
+	height: 66px;
+	position: relative;
+	left: 40px;
+}
+
+.musicLogo a {
+	padding: 0;
+}
+
+.musicLogo img {
+	height: 30px;
+	width: 30px;
+}
+
+/* 标题导航栏 nav*/
 .header_navbar {
 	display: inline-block;
 	height: 66px;
